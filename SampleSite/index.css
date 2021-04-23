@@ -1,0 +1,184 @@
+body {
+    background-color: #303841;
+    margin: 0 0;
+  }
+  #navbar {
+    display: flex;
+    position: fixed;
+    float: right;
+    background-color: #be3144;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin: 0px -60px;
+    padding: 20px;
+    padding-right: 50px;
+    font-family: Comic Sans MS, san-serif;
+    z-index: 1;
+    margin-top: -35px;
+  }
+  .menu {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    float: right;
+    flex-flow: row-reverse;
+    margin: auto 30px;
+    font-size: 25px;
+  }
+  #welcome-section {
+    display: block;
+    position: relative;
+    z-index: 0.5;
+    background-color: #45567d;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: orange;
+    height: 100vh;
+  }
+  h1 {
+    font-size: 50px;
+    padding-top: 50vh;
+    color: white;
+  }
+  #projects {
+    display: block;
+    position: relative;
+    margin-top: auto;
+    font-size: 30px;
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  @media  (max-width: 700px) {
+    #projects {
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+  }
+
+  h2 {
+    text-decoration: underline;
+  }
+  .hidden {
+    color: #45567d;
+    transition: color 0.3s ease-out;
+  }
+  a:hover .hidden {
+    color: #ff7f50;
+    
+  }
+  #tribute-page {
+    display: inline-block;
+    margin: auto 30px;
+  }
+  .project-tile {
+    width: 500px;
+    height: 400px;
+  }
+  .project-title {
+    background-color: #45567d;
+    width: 100%;
+    margin-top: -10px;
+    padding: 5px 0px;
+    color: white;
+    border-radius: 5px;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  #survey-form {
+    display: inline-block;
+    margin: auto 30px;
+  }
+  #product-page {
+      display: inline-block;
+      margin: auto 30px;
+  }
+  #technical-document {
+    display: inline-block;
+    margin: auto 30px;
+  }
+  #see-all {
+    display: block;
+    position: relative;
+    background-color: #45567d;
+    width: 10%;
+    padding: 10px 5px; 
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    transition: background 0.3s ease-out;
+    transition: font 0.3s ease-out;
+    z-index: 0;
+  }
+  #see-all:hover {
+    background-color: red;
+    font-size: 35px;
+  }
+  #contact {
+    display: block;
+    text-align: center;
+    position: relative;
+    background-color: #45567d;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  @media (max-width: 700px) {
+    #contact {
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+  }
+  h3 {
+    text-decoration: none;
+    font-size: 50px;
+    margin-bottom: 0px;
+  }
+  #social-logo {
+    display: inline-block;
+  }
+  .logo {
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    transition: transform 0.3s ease-out;
+  }
+  .facebook {
+    width: 20px;
+    height: 20px;
+  }
+  .logo:hover {
+  transform: translateY(5px);
+  }
+  .instagram {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+  .github {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+ 
+  .twitter {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+  .email {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+  .phone {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+  }
+  
